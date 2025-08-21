@@ -1,0 +1,54 @@
+# AXS Energia - Simulador de Economia
+
+Este é um site institucional para a consultora Luisa Laura da AXS Energia, credenciada CEMIG, que oferece simulação de economia na conta de energia elétrica, além de informações, galeria de fotos e contato direto via WhatsApp.
+
+## Funcionalidades
+
+- **Simulação Online:** Formulário para o cliente solicitar uma simulação gratuita de economia na conta de luz.
+- **Envio de Conta:** O cliente pode anexar a conta de energia para análise.
+- **Contato Rápido:** Botão para WhatsApp, além de e-mail e telefone visíveis.
+- **Galeria de Fotos:** Modal com visualização ampliada das imagens.
+- **Painel Administrativo:** Exportação dos leads para Excel e limpeza dos dados (acesso digitando "admin" em qualquer campo do formulário).
+- **Design Responsivo:** Layout adaptado para dispositivos móveis e desktop.
+
+## Como usar
+
+1. **Abra o arquivo** `siteaxs.html` em seu navegador.
+2. Preencha o formulário de simulação para testar o envio de dados.
+3. Para acessar o painel administrativo, digite `admin` em qualquer campo do formulário.
+4. Para exportar os dados, clique em "Baixar dados em Excel" (aparece apenas no modo admin).
+
+## Tecnologias Utilizadas
+
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [JavaScript Puro](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [XLSX.js](https://github.com/SheetJS/sheetjs) (para exportação Excel)
+- Armazenamento local do navegador (LocalStorage)
+
+## Estrutura de Pastas
+
+```plaintext
+trabalhoAXs/
+├── Imagens/
+│   ├── fotoperfil.jpg
+│   ├── cemig.png
+│   ├── ...
+├── siteaxs.html
+```
+
+## Observações
+
+- Os dados dos formulários são salvos apenas no navegador do usuário (LocalStorage).
+- O envio de conta de luz utiliza um serviço gratuito de upload temporário.
+- O site é totalmente estático, não requer backend.
+
+## Contato
+
+- **Consultora:** Luisa Laura  
+- **WhatsApp:** [Clique aqui](https://wa.me/5531991048735)  
+- **E-mail:** [luisa.laura.envio@gmail.com](mailto:luisa.laura.envio@gmail.com)
+
+---
+
+Desenvolvido para AXS Energia
